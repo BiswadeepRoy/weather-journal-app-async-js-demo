@@ -1,10 +1,12 @@
 # Weather-Journal App Project
 
 ## Overview
-This project requires you to create an asynchronous web app that uses Web API and user data to dynamically update the UI. 
+This project demonstrates the use of asynchronous javascripts and use of fetch API to fetch external resources as well.
+It also deals with the client-server system made through javascript and the use of async functions, await and fetch functions as well as promise chaining.
 
 ## Instructions
-This will require modifying the `server.js` file and the `website/app.js` file. You can see `index.html` for element references, and once you are finished with the project steps, you can use `style.css` to style your application to customized perfection.
+To run this application the user would need to enter any US based postal codes and some thoughts or message to be printed as Blog, on entering the call to the OpenWeather API will be made and the current temparature will be generated and fetched on the client and rendered onto the screen along with the date and the user input in the thoughts or message.
 
-## Extras
-If you are interested in testing your code as you go, you can use `tests.js` as a template for writing and running some basic tests for your code.
+# OpenWeatherAPI
+OpenWeatherAPI is an online free API which on requesting with a valid postal code will generate a sample response containing the temparature in the payload. More information will be found at https://openweathermap.org/api
+
